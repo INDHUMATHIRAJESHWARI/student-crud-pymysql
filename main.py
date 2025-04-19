@@ -1,4 +1,4 @@
-#Console Intreface
+#Console intreface
 import database
 try:
     db=database.crud()
@@ -29,5 +29,5 @@ try:
             break
         else:
             print("\n Invalid Choice")
-except Exception as a:
-    print("\n Error ~ ",a)
+except Exception as e:
+    print("\n Error ~ ",e)
