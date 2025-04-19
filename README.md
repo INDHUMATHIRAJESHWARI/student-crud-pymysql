@@ -19,25 +19,25 @@ A simple student management system console-based application demonstrating CRUD 
   
 
 -Configure credentials in database.py
- self.con = pymysql.connect(
-    host='localhost',
-    user='your_username',  
-    password='your_password', 
-    db='my_db'
+self.con = pymysql.connect(
+   host='localhost',
+   user='your_username',  
+   password='your_password', 
+   db='my_db'
 )
 
 -Install dependencies
-    pip install pymysql
+pip install pymysql
 
 -Run the application
-    python main.py
+python main.py
 
 -Menu Options
-  1. Insert   → Add new student
-  2. View     → List all students
-  3. Edit     → Update student age
-  4. Delete   → Remove student
-  0. Close    → Exit program
+1. Insert   → Add new student
+2. View     → List all students
+3. Edit     → Update student age
+4. Delete   → Remove student
+0. Close    → Exit program
 
 
 
@@ -48,7 +48,7 @@ A simple student management system console-based application demonstrating CRUD 
 Connect to db succesfull!
 
 
- DashBoard
+DashBoard
 1. Insert
 2. View
 3. Edit
@@ -56,14 +56,14 @@ Connect to db succesfull!
 0. Close
 Enter choice : 1
 
- Student Registration Form
+Student Registration Form
 Enter id : 1020
 Enter name : Sensa
 Enter age : 23
 Data saved!
 
 
- DashBoard
+DashBoard
 1. Insert
 2. View
 3. Edit
@@ -71,7 +71,7 @@ Data saved!
 0. Close
 Enter choice : 2
 
- Registered Student Data
+Registered Student Data
 1001    Ram     21
 
 1002    Lakhman 22
@@ -84,7 +84,7 @@ Enter choice : 2
 
 
 
- DashBoard
+DashBoard
 1. Insert
 2. View
 3. Edit
@@ -92,13 +92,13 @@ Enter choice : 2
 0. Close
 Enter choice : 3
 
- Student Updation Form
+Student Updation Form
 Enter id : 1020
 Enter age : 21
 Data saved!
 
 
- DashBoard
+DashBoard
 1. Insert
 2. View
 3. Edit
@@ -106,7 +106,7 @@ Data saved!
 0. Close
 Enter choice : 2
 
- Registered Student Data
+Registered Student Data
 1001    Ram     21
 
 1002    Lakhman 22
@@ -117,9 +117,7 @@ Enter choice : 2
 
 1020    Sensa   21
 
-
-
- DashBoard
+DashBoard
 1. Insert
 2. View
 3. Edit
@@ -131,8 +129,7 @@ Student Removal Form
 Enter id : 1020
 Data deleted!
 
-
- DashBoard
+DashBoard
 1. Insert
 2. View
 3. Edit
@@ -140,7 +137,7 @@ Data deleted!
 0. Close
 Enter choice : 2
 
- Registered Student Data
+Registered Student Data
 1001    Ram     21
 
 1002    Lakhman 22
@@ -150,8 +147,7 @@ Enter choice : 2
 1004    Nila    20
 
 
-
- DashBoard
+DashBoard
 1. Insert
 2. View
 3. Edit
